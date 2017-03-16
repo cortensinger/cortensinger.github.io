@@ -342,7 +342,7 @@ body {
 
 #panels {
     display: none;
-    height: calc(100% - 60px);
+    height: calc(100% - 20px);
     padding: 30px;
     width: calc(100% - 60px);
 }
@@ -360,7 +360,8 @@ body {
     font-size: 14px;
     position: absolute;
     max-width: calc(100% - 4em);
-    left: 50%;
+    left: 40%;
+    top: 15%;
     margin-left: calc((100% - 4em)/-2);
     line-height: 150%;
 }
@@ -1434,4 +1435,112 @@ body {
 
 .link-svg {
     
+}
+
+#earth {
+    background-image: url(../img/earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 600px;
+/*    margin: 20% auto 0px auto;*/
+    position: absolute;
+    left: 50%;
+    top: 9%;
+}
+
+#earth-screen {
+    background-color: rgba(255,255,255,0.0);
+    width: 100%;
+    height: 100%;
+}
+
+#me {
+    background-image: url(../img/me.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+/*    margin: 0% auto 0px auto;*/
+    position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+#me-screen {
+    background-color: rgba(255,255,255,0.0);
+    width: 100%;
+    height: 100%;
+}
+
+#surf {
+    background-image: url(../img/surf_close.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+/*    margin: 0% auto 0px auto;*/
+    position: absolute;
+    left: 15%;
+    top: 45%;
+}
+
+#surf-screen {
+    background-color: rgba(255,255,255,0.0);
+    width: 100%;
+    height: 100%;
+}
+
+#skate {
+    background-image: url(../img/skate.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+/*    margin: 0% auto 0px auto;*/
+    position: absolute;
+    left: -10%;
+    top: 45%;
+}
+
+#skate-screen {
+    background-color: rgba(255,255,255,0.0);
+    width: 100%;
+    height: 100%;
+}
+
+#tech {
+    background-image: url(../img/aliviara.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+/*    margin: 0% auto 0px auto;*/
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+#tech-screen {
+    background-color: rgba(255,255,255,0.0);
+    width: 100%;
+    height: 100%;
+}
+
+#brain {
+    background-image: url(../img/myBrain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+/*    margin: 20% auto 0px auto;*/
+    position: absolute;
+    left: 65%;
+    top: 45%;
 }
