@@ -39,10 +39,12 @@ function showMenu() {
     setTimeout(function () {
         $('#menu').addClass('show-menu');
     }, 50);
-
+    
     setTimeout(function () {
-        var position = $('#about').position().left,
-            width = $('#about').innerWidth();
+        var pos = $('#about').position().left,
+            og = $('#about').innerWidth(),
+            width = og * 0.5,
+            position = pos + og*0.24;
         console.log(width);
         $('#menu-current').css({
             'left': position,
@@ -77,8 +79,14 @@ $(document).ready(function () {
     $('.menu-item').click(function () {
         var id = $(this).attr('id'),
             panel = "#panel-" + id,
-            position = $(this).position().left,
-            width = $(this).innerWidth();
+            pos = $(this).position().left,
+            og = $(this).innerWidth(),
+            width = og * 0.5,
+            position = pos + og*0.24;
+        if (id === "projects") {
+            width = og * 0.68;
+            position = pos + og*0.25;
+        }
         if (currentPanel !== panel) {
             $('.panel').fadeOut(500);
             $('#menu-current').css({
@@ -125,12 +133,22 @@ $(document).ready(function () {
 //    });
     
     $(window).resize(function () {
+        var pos = $(currentButton).position().left,
+            og = $(currentButton).innerWidth(),
+            width = og * 0.5,
+            position = pos + og*0.24;
+        
+        if (currentButton === "projects") {
+            width = og * 0.68;
+            position = pos + og*0.25;
+        }
+        
         setTimeout(function () {
             $('#menu-current').css({
-                'left': $(currentButton).position().left,
-                'width': $(currentButton).innerWidth()
+                'left': position,
+                'width': width
             });
-        }, 500);
+        }, 1);
     });
     
     $('.project-cell').click(function () {

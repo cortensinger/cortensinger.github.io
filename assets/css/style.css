@@ -117,7 +117,7 @@ body {
 
 .menu-item {
     display: inline-block;
-    padding: 20px 20px;
+    padding:  40px;
     padding-bottom: 0px;
     padding-top: 20px;
     text-align: center;
@@ -127,29 +127,28 @@ body {
     -webkit-transition: 1s;
     -moz-transition: 1s;
     width: 70px;
-    margin-bottom: px;
     cursor: pointer;
 }
 
-/*
+
 #menu-logo {
-    display: inline-block;
+    width:30px;
+    height:30px;
+    position:absolute;
+    left:49%;
+    bottom:11%;
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
-    color: #302F2F;
 }
 
-.menu-logo-letter {
-    display: inline-block;
-    font-weight: 900;
-}
-
+/*
 .show-menu-logo {
     animation: show-menu-logo 1s ease-in-out forwards;
     -webkit-animation: show-menu-logo 1s ease-in-out forwards;
     -moz-animation: show-menu-logo 1s ease-in-out forwards;
 }
+
 
 @keyframes show-menu-logo {
     0% {
@@ -412,18 +411,12 @@ body {
 
 .panel {
     display: none;
-    width: 920px;
+    width: 73%;
     height: 100%;
     left: 50%;
     margin-left: calc(-920px/2);
     position: absolute;
 }
-
-#panel-about {
-
-}
-
-
 
 #menu-current {
     position: fixed;
@@ -743,14 +736,15 @@ body {
     background-color: transparent;
     transition: 0.5s;
     overflow-y: scroll;
+    position: fixed;
 }
 
 .project-full {
-    top: 2em !important;
+    top:  0.5em!important;
     left: 4em !important;
     right: 4em !important;
-    bottom: 3em !important;
-    height: calc(100% - 7em) !important;
+    bottom: 0.5em !important;
+    height: calc(92%) !important;
     width: calc(100% - 8em) !important;
     background-color: white !important;
     z-index: 999;
@@ -758,15 +752,14 @@ body {
 
 .project-back {
     height: 70px;
-    width: 80px;
+    width: 70px;
     color: #0000;
     font-size: 30px;
-    line-height: 80px;
     cursor: pointer;
     z-index: 2;
-    position: absolute;
-    top: 15;
-    left: 0;
+    position: fixed;
+    top: 25;
+    left: 90;
     transition: 0.3s;
 }
 
@@ -816,6 +809,8 @@ body {
 
 .project-description {
     margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 15px;
     font-weight: 300;
     text-align: justify;
@@ -849,7 +844,7 @@ body {
 }
 
 .project-team {
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
@@ -992,15 +987,7 @@ body {
     margin-right: 0px;
 }
 
-.project-full {
-    top: 1em !important;
-    left: 2em !important;
-    right: 2em !important;
-    bottom: 1em !important;
-    height: calc(100% - 5em) !important;
-    width: calc(100% - 4em) !important;
-}
-    
+
 .project-description {
     font-size: 14px;
 }
@@ -1229,12 +1216,7 @@ body {
 }
 
 @media (max-width: 620px) {
-    
-.video {
-    height: 35%;
-    width: 95%
-}
-    
+      
 #projects-grid {
     max-width: 250px;
     margin: 0px auto;
@@ -1249,15 +1231,7 @@ body {
 .project-cell:nth-child(2n) {
     margin-right: 0px;
 }
-    
-.project-full {
-    top: 1em !important;
-    left: 2em !important;
-    right: 2em !important;
-    bottom: 1em !important;
-    height: calc(100% - 5em) !important;
-    width: calc(100% - 4em) !important;
-}
+
     
 .link-svg {
     height: 60px;
@@ -1513,3 +1487,7 @@ body {
     width: 500px;
     display: inline-block;
 }
+
+
+
+
