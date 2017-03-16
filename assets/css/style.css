@@ -132,11 +132,13 @@ body {
 
 
 #menu-logo {
+/*
     width:30px;
     height:30px;
     position:absolute;
     left:49%;
     bottom:11%;
+*/
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
