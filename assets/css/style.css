@@ -1,24 +1,24 @@
 
 body {
-    background-color: #302F2F;
-/*    background-color: rgba(70, 0, 100, 1);*/
-    color:  #302F2F;
-    font-family: 'Ubuntu', sans-serif;
+    background-color: #000000;
+    color:  #000000;
+    font-family: 'Courier New', monospace;
     height: 100%;
     width: 100%;
+    font-size: 22px;
     margin: 0px;
     overflow-y: hidden;
 }
 
 #container {
-    background-color: #FFFEFC;
-    border-radius: 7px;
+    background-color: #F6F6F6;
     position: absolute;
-    top: 2em;
-    bottom: 2em;
-    left: 2em;
-    right: 2em;
-    transition: 0.5s;
+    top: 0.5em;
+    bottom:0.5em;
+    left: 0.5em;
+    right: 0.5em;
+    height: 92%; /*96.5%;*/
+    transition: 0.2s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     overflow-y: scroll;
@@ -70,6 +70,7 @@ body {
     }
 }
 
+/*
 #plus-cover {
     position: absolute;
     background-color: rgba(0,0,0,0);
@@ -83,7 +84,9 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
+*/
 
+/*
 .letter {
     color: #5F6C4F;
     font-size: 150;
@@ -98,11 +101,13 @@ body {
     right: 50%;
     margin-right: calc(-85px/2);
 }
+*/
 
 #menu {
     position: fixed;
     bottom: -78px;
-    color: #FFFEFC;
+    height: 50px;
+    color: #F6F6F6;
     width: 100%;
     text-align: center;
     left: 0px;
@@ -113,6 +118,8 @@ body {
 .menu-item {
     display: inline-block;
     padding: 20px 20px;
+    padding-bottom: 0px;
+    padding-top: 20px;
     text-align: center;
     font-size: 16px;
     font-weight: 300;
@@ -120,10 +127,11 @@ body {
     -webkit-transition: 1s;
     -moz-transition: 1s;
     width: 70px;
-    margin-bottom: 0px;
+    margin-bottom: px;
     cursor: pointer;
 }
 
+/*
 #menu-logo {
     display: inline-block;
     transition: 1s;
@@ -190,6 +198,7 @@ body {
         color: #CAF200;
     }
 }
+*/
 
 .show-menu {
     animation: show-menu 0.5s ease-in-out forwards;
@@ -222,6 +231,7 @@ body {
     }
 }
 
+/*
 .spin {
     transform-origin: center;
     -webkit-transform-origin: center;
@@ -320,13 +330,14 @@ body {
         font-size: 30px;
     }
 }
+*/
 
 .panel-title {
-    font-size: 48px;
+    font-size: 36px;
     margin: 25px 0px;
     font-weight: 300;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 25px;
 }
 
 #panels {
@@ -346,15 +357,15 @@ body {
 }
 
 .panel-content {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 14px;
     position: absolute;
     max-width: calc(100% - 4em);
     left: 50%;
     margin-left: calc((100% - 4em)/-2);
-    line-height: 200%;
+    line-height: 150%;
 }
 
+/*
 #panel-resume {
     width: 100%;
     margin: 0px;
@@ -385,6 +396,7 @@ body {
     text-align: center;
 }
 
+
 .contact-element:hover {
     border: 3px solid #CAF200;
 }
@@ -395,6 +407,7 @@ body {
 
 #panel-contact {
 }
+*/
 
 .panel {
     display: none;
@@ -415,7 +428,7 @@ body {
     position: fixed;
     bottom: 0px;
     height: 5px;
-    background: #CAF200;
+    background: #4A4A4A;
     left: -200px;
     z-index: 200;
     transition: .3s linear;
@@ -423,6 +436,7 @@ body {
     -moz-transition: .3s linear;
 }
 
+/*
 #menu-line {
     position: fixed;
     width: 100%;
@@ -434,10 +448,12 @@ body {
     -webkit-transition: .1s linear;
     -moz-transition: .1s linear;
 }
+*/
 
 #panel-projects {
     text-align: center;
 }
+/*
 .contact-label {
     float: left;
     font-weight: 500;
@@ -681,6 +697,7 @@ body {
         margin-top: 0px;
     }
 }
+*/
 
 
 .project-cell {
@@ -739,15 +756,16 @@ body {
 }
 
 .project-back {
-    height: 80px;
+    height: 70px;
     width: 80px;
-    color: #5F6C4F;
-    font-size: 80px;
+    color: #0000;
+    font-size: 30px;
     line-height: 80px;
     cursor: pointer;
     z-index: 2;
     position: absolute;
     top: 15;
+    left: 0;
     transition: 0.3s;
 }
 
@@ -769,7 +787,7 @@ body {
 
 .project-title {
     margin-top: 25px;
-    font-size: 60px;
+    font-size: 40px;
     top: 25px;
     color: #302F2F;
     font-weight: 300;
@@ -778,7 +796,7 @@ body {
 }
 
 .project-date {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 500;
     color: #5F6C4F;
     top: 45px;
@@ -792,25 +810,24 @@ body {
 
 .project-tech {
     font-weight: 700;
-    font-size: 20px;
-    margin: 15px 0px;
+    font-size: 15px;
 }
 
 .project-description {
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     text-align: justify;
     line-height: 200%;
 }
 
 .link-svg {
-    height: 80px;
+    height: 40px;
     fill: #5F6C4F !important;
     transition: 0.3s;
     position: absolute;
-    top: 33;
-    right: 30;
+    top: 30;
+    right: 60;
 }
 .link-svg:hover {
     fill: #CAF200 !important;
@@ -1136,18 +1153,6 @@ body {
     border-radius: 50%;   
 }
     
-.menu-item {
-    display: inline-block;
-    padding: 20px 10px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 300;
-    width: 40px;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-}
-    
 .panel-content {
     font-size: 18px;
     line-height: 150%;
@@ -1166,6 +1171,7 @@ body {
 /*    margin-top: -46px;*/
 }
     
+/*
 .contact-element {
     width: 90px;
     height: 90px;
@@ -1279,6 +1285,7 @@ body {
         font-size: 30px;
     }
 }
+*/
     
 .adjust-container {
     animation: adjust-container 0.5s ease-in-out forwards;
