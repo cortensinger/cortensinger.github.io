@@ -738,8 +738,6 @@ body {
 
 #project-container {
     background-color: transparent;
-    display: none;
-    position: fixed;
     transition: 0.5s;
     overflow-y: scroll;
 }
