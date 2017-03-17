@@ -869,7 +869,7 @@ body {
 }
 
 #project-cell-3 {
-    background-image: url(../img/reorient-1.pdf);
+    background-image: url(../img/reorient-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -883,28 +883,29 @@ body {
 }
 
 #project-cell-5 {
-    background-image: url(../img/input_device.jpg);
+    background-image: url(../img/hand-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 #project-cell-6 {
-    background-image: url(../img/ring.jpg);
+    background-image: url(../img/ring-3.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-7 {
-    background-image: url(../img/wanderer.jpg);
+    background-image: url(../img/wanderer-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-8 {
-    background-image: url(../img/mindSweeper.png);
+    background-image: url(../img/mindsweeper-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1396,7 +1397,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
-    width: 500px;
+    width: 600px;
     display: inline-block;
 }
 
@@ -1471,7 +1472,7 @@ body {
 }
 
 #reorient-1 {
-    background-image: url(../img/reorient-1.pdf);
+    background-image: url(../img/reorient-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1481,7 +1482,21 @@ body {
 }
 
 #reorient-2 {
-    background-image: url(../img/reorient-2.pdf);
+    background-image: url(../img/reorient-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 500px;
+    display: inline-block;
+}
+
+
+
+
+
+#hand-1 {
+    background-image: url(../img/hand-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1490,6 +1505,182 @@ body {
     display: inline-block;
 }
 
+#hand-2 {
+    background-image: url(../img/hand-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+}
 
+#hand-3 {
+    background-image: url(../img/hand-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 440px;
+    width: 450px;
+    display: inline-block;
+}
 
+#ring-1 {
+    background-image: url(../img/ring-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
 
+#ring-2 {
+    background-image: url(../img/ring-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
+
+#ring-3 {
+    background-image: url(../img/ring-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 450px;
+    display: inline-block;
+}
+
+#wanderer-3 {
+    background-image: url(../img/wanderer-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 400px;
+    display: inline-block;
+}
+
+#wanderer-2 {
+    background-image: url(../img/wanderer-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+}
+
+#wanderer-1 {
+    background-image: url(../img/wanderer-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+}
+
+#mindsweeper-2 {
+    background-image: url(../img/mindsweeper-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+
+#mindsweeper-1 {
+    background-image: url(../img/mindsweeper-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+
+#mindsweeper-4 {
+    background-image: url(../img/mindsweeper-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+
+#hand-4 {
+    background-image: url(../img/hand-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 440px;
+    width: 450px;
+    display: inline-block;
+}
+
+#hand-5 {
+    background-image: url(../img/hand-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 440px;
+    width: 450px;
+    display: inline-block;
+}
+
+#hand-6 {
+    background-image: url(../img/hand-6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 440px;
+    width: 450px;
+    display: inline-block;
+}
+
+#wanderer-4 {
+    background-image: url(../img/wanderer-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 400px;
+    display: inline-block;
+}
+
+#mindsweeper-3 {
+    background-image: url(../img/mindsweeper-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+
+#mindsweeper-5 {
+    background-image: url(../img/mindsweeper-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 390px;
+    width: 600px;
+    display: inline-block;
+}
+
+#mindsweeper-6 {
+    background-image: url(../img/mindsweeper-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 480px;
+    width: 650px;
+    display: inline-block;
+}
