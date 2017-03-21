@@ -12,12 +12,11 @@ body {
 
 #container {
     background-color: #F6F6F6;
-    position: absolute;
+    position: fixed;
     top: 2%;
     left: 1%;
     right: 1%;
-    bottom: %;
-    height: 92%; /*96.5%;*/
+    height: calc(100% - 55px);
     transition: 0.2s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -105,7 +104,7 @@ body {
 
 #menu {
     position: fixed;
-    height: 6.1%;
+    height: 40px;/*6.1%;*/
     color: #F6F6F6;
     width: 100%;
     text-align: center;
@@ -115,9 +114,9 @@ body {
 
 .menu-item {
     display: inline-block;
-    padding:  3.2%;
+    padding:  30px;
     padding-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: center;
     font-size: 16px;
     font-weight: 300;
@@ -744,7 +743,7 @@ body {
     left: 7% !important;
     right: 7% !important;
     bottom: 2% !important;
-    height: calc(92%) !important;
+    height: calc(100% - 55px) !important;
     width: calc(100% - 14%) !important;
     background-color: white !important;
     z-index: 999;
