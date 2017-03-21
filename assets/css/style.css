@@ -13,10 +13,10 @@ body {
 #container {
     background-color: #F6F6F6;
     position: absolute;
-    top: 0.5em;
-    bottom:0.5em;
-    left: 0.5em;
-    right: 0.5em;
+    top: 2%;
+    left: 1%;
+    right: 1%;
+    bottom: %;
     height: 92%; /*96.5%;*/
     transition: 0.2s;
     -webkit-transition: 0.5s;
@@ -105,19 +105,17 @@ body {
 
 #menu {
     position: fixed;
-    bottom: -78px;
-    height: 50px;
+    height: 6.1%;
     color: #F6F6F6;
     width: 100%;
     text-align: center;
     left: 0px;
     right: 0px;
-    display: none;
 }
 
 .menu-item {
     display: inline-block;
-    padding:  40px;
+    padding:  3.2%;
     padding-bottom: 0px;
     padding-top: 20px;
     text-align: center;
@@ -343,7 +341,7 @@ body {
 
 #panels {
     display: none;
-    height: calc(100% - 20px);
+    height: calc(100% - 60px);
     padding: 30px;
     width: calc(100% - 60px);
 }
@@ -742,12 +740,12 @@ body {
 }
 
 .project-full {
-    top:  0.5em!important;
-    left: 4em !important;
-    right: 4em !important;
-    bottom: 0.5em !important;
+    top:  2%!important;
+    left: 7% !important;
+    right: 7% !important;
+    bottom: 2% !important;
     height: calc(92%) !important;
-    width: calc(100% - 8em) !important;
+    width: calc(100% - 14%) !important;
     background-color: white !important;
     z-index: 999;
 }
@@ -766,7 +764,7 @@ body {
 }
 
 .project-back:hover {
-    color: #CAF200;
+    color: #159f6d;
 }
 
 .project-content {
@@ -960,12 +958,14 @@ body {
     height: 60%;
 }
     
+/*
 #container {
     top: 1em;
     bottom: 1em;
     left: 1em;
     right: 1em;
 }
+*/
     
 .panel {
     display: none;
@@ -1312,10 +1312,10 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 31%;
+    width: 31%;
     position: absolute;
-    left: 40%;
+    left: 35.5%;
     top: 45%;
 }
 
@@ -1330,10 +1330,10 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 31%;
+    width: 31%;
     position: absolute;
-    left: 15%;
+    left: 10.5%;
     top: 45%;
 }
 
@@ -1348,10 +1348,10 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 31%;
+    width: 31%;
     position: absolute;
-    left: -10%;
+    left: -14.5%;
     top: 45%;
 }
 
@@ -1366,10 +1366,10 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 31%;
+    width: 31%;
     position: absolute;
-    left: 90%;
+    left: 85.5%;
     top: 45%;
 }
 
@@ -1381,14 +1381,20 @@ body {
 
 #brain {
     background-image: url(../img/myBrain.gif);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 31%;
+    width: 31%;
     position: absolute;
-    left: 65%;
+    left: 60.5%;
     top: 45%;
+}
+
+#brain-screen {
+    background-color: rgba(255,255,255,0.0);
+    width: 100%;
+    height: 100%;
 }
 
 #wheelsense-1 {

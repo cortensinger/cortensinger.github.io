@@ -78,14 +78,39 @@ $(document).ready(function () {
 
     $('.menu-item').click(function () {
         var id = $(this).attr('id'),
+            idd = id.split('-')[2],
             panel = "#panel-" + id,
             pos = $(this).position().left,
             og = $(this).innerWidth(),
             width = og * 0.5,
             position = pos + og*0.24;
+        console.log(id);
         if (id === "projects") {
             width = og * 0.68;
             position = pos + og*0.25;
+            
+            var project = "#project-" + id;
+            $(project).addClass('display-none');
+        
+            $('#project-container').removeClass('project-full');
+            $('#project-container').css({'display': 'none'});
+            $('#container').removeClass('no-scroll');
+            
+            if (currentPanel !== panel) {
+                $('.panel').fadeOut(500);
+                $('#menu-current').css({
+                    'left': position,
+                    'width': width
+                });
+                setTimeout(function () {
+                    $(panel).fadeIn(500);
+                }, 500);
+            }  
+            
+            currentPanel = panel;
+            currentButton = "#"+id;
+            cleanProjects();
+            
         }
         if (currentPanel !== panel) {
             $('.panel').fadeOut(500);
@@ -183,16 +208,12 @@ $(document).ready(function () {
     $('.project-back').click(function () {
         var id = $(this).attr('id').split('-')[2],
             project = "#project-" + id;
-        console.log("back");
-        console.log(project);
         $(project).addClass('display-none');
         
-        setTimeout(function () {
-            $('#project-container').removeClass('project-full');
-            $('#project-container').css({
-                'display': 'none'
-            });
-        }, 500);
+        $('#project-container').removeClass('project-full');
+        $('#project-container').css({
+            'display': 'none'
+        });
         $('#container').removeClass('no-scroll');
     });
     
