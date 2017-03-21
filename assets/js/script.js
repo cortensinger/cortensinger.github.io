@@ -74,7 +74,7 @@ $(document).ready(function () {
         }, 600);
     setTimeout(function () {
             showPanels();
-        }, 1600);
+        }, 700);
 
     $('.menu-item').click(function () {
         var id = $(this).attr('id'),
@@ -123,7 +123,7 @@ $(document).ready(function () {
             });
             setTimeout(function () {
                 $(panel).fadeIn(200);
-            }, 2s00);
+            }, 200);
             currentPanel = panel;
             currentButton = "#"+id;
             cleanProjects();
