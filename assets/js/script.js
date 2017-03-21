@@ -96,7 +96,10 @@ $(document).ready(function () {
             $('#project-container').css({'display': 'none'});
             $('#container').removeClass('no-scroll');
             
+            $console.log("-----------------------------");
+            
             if (currentPanel !== panel) {
+                $console.log("+++++++++++++++++++++++++++++");
                 $('.panel').fadeOut(500);
                 $('#menu-current').css({
                     'left': position,
