@@ -70,11 +70,11 @@ $(document).ready(function () {
     var currentPanel = '#panel-about';
     var currentButton = '#about';
     setTimeout(function () {
-            showMenu();
-        }, 600);
-    setTimeout(function () {
             showPanels();
         }, 700);
+    setTimeout(function () {
+            showMenu();
+        }, 300);
 
     $('.menu-item').click(function () {
         var id = $(this).attr('id'),
@@ -96,10 +96,8 @@ $(document).ready(function () {
             $('#project-container').css({'display': 'none'});
             $('#container').removeClass('no-scroll');
             
-            console.log("-----------------------------");
             
             if (currentPanel !== panel) {
-                console.log("+++++++++++++++++++++++++++++");
                 $('.panel').fadeOut(200);
                 $('#menu-current').css({
                     'left': position,
