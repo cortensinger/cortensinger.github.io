@@ -855,35 +855,35 @@ body {
 }
 
 #project-cell-2 {
-    background-image: url(../img/smartwheels-1.jpg);
+    background-image: url(../img/smartwheels-cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-1 {
-    background-image: url(../img/wheelsense-1.jpg);
+    background-image: url(../img/wheelsense-cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-3 {
-    background-image: url(../img/reorient-1.jpg);
+    background-image: url(../img/reorient-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-4 {
-    background-image: url(../img/aliviara/aliviara.jpg);
+    background-image: url(../img/aliviara/aliviara_cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-5 {
-    background-image: url(../img/hand-1.gif);
+    background-image: url(../img/hand-cover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -891,21 +891,21 @@ body {
 }
 
 #project-cell-6 {
-    background-image: url(../img/ring-3.JPG);
+    background-image: url(../img/ring-3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-7 {
-    background-image: url(../img/wanderer-1.jpg);
+    background-image: url(../img/wanderer-cover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project-cell-8 {
-    background-image: url(../img/mindsweeper-1.png);
+    background-image: url(../img/mindsweeper-cover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1308,7 +1308,7 @@ body {
 }
 
 #me {
-    background-image: url(../img/me.png);
+    background-image: url(../img/me.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1326,7 +1326,7 @@ body {
 }
 
 #surf {
-    background-image: url(../img/surf_close.png);
+    background-image: url(../img/surf_close.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1344,7 +1344,7 @@ body {
 }
 
 #skate {
-    background-image: url(../img/skate.png);
+    background-image: url(../img/skate.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1362,7 +1362,7 @@ body {
 }
 
 #tech {
-    background-image: url(../img/aliviara.png);
+    background-image: url(../img/aliviara.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1380,7 +1380,7 @@ body {
 }
 
 #brain {
-    background-image: url(../img/myBrain.png);
+    background-image: url(../img/myBrain.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1432,7 +1432,7 @@ body {
 }
 
 #smartwheels-1 {
-    background-image: url(../img/smartwheels-1.jpg);
+    background-image: url(../img/smartwheels-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1442,7 +1442,7 @@ body {
 }
 
 #smartwheels-2 {
-    background-image: url(../img/smartwheels-2.jpg);
+    background-image: url(../img/smartwheels-2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1452,7 +1452,7 @@ body {
 }
 
 #smartwheels-3 {
-    background-image: url(../img/smartwheels-3.jpg);
+    background-image: url(../img/smartwheels-3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1462,7 +1462,7 @@ body {
 }
 
 #smartwheels-4 {
-    background-image: url(../img/smartwheels-4.jpg);
+    background-image: url(../img/smartwheels-4.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1472,7 +1472,7 @@ body {
 }
 
 #reorient-1 {
-    background-image: url(../img/reorient-1.jpg);
+    background-image: url(../img/reorient-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1482,7 +1482,7 @@ body {
 }
 
 #reorient-2 {
-    background-image: url(../img/reorient-2.jpg);
+    background-image: url(../img/reorient-2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1536,7 +1536,7 @@ body {
 }
 
 #ring-2 {
-    background-image: url(../img/ring-1.gif);
+    background-image: url(../img/ring-2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1556,7 +1556,7 @@ body {
 }
 
 #wanderer-3 {
-    background-image: url(../img/wanderer-3.jpg);
+    background-image: url(../img/wanderer-3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1566,7 +1566,7 @@ body {
 }
 
 #wanderer-2 {
-    background-image: url(../img/wanderer-2.jpg);
+    background-image: url(../img/wanderer-2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1576,7 +1576,7 @@ body {
 }
 
 #wanderer-1 {
-    background-image: url(../img/wanderer-1.jpg);
+    background-image: url(../img/wanderer-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1586,7 +1586,7 @@ body {
 }
 
 #mindsweeper-2 {
-    background-image: url(../img/mindsweeper-2.png);
+    background-image: url(../img/mindsweeper-2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1596,7 +1596,7 @@ body {
 }
 
 #mindsweeper-1 {
-    background-image: url(../img/mindsweeper-1.png);
+    background-image: url(../img/mindsweeper-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1606,7 +1606,7 @@ body {
 }
 
 #mindsweeper-4 {
-    background-image: url(../img/mindsweeper-4.png);
+    background-image: url(../img/mindsweeper-4.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1646,7 +1646,7 @@ body {
 }
 
 #wanderer-4 {
-    background-image: url(../img/wanderer-4.jpg);
+    background-image: url(../img/wanderer-4.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1656,7 +1656,7 @@ body {
 }
 
 #mindsweeper-3 {
-    background-image: url(../img/mindsweeper-3.png);
+    background-image: url(../img/mindsweeper-3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1666,7 +1666,7 @@ body {
 }
 
 #mindsweeper-5 {
-    background-image: url(../img/mindsweeper-5.jpg);
+    background-image: url(../img/mindsweeper-5.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1676,7 +1676,7 @@ body {
 }
 
 #mindsweeper-6 {
-    background-image: url(../img/mindsweeper-6.jpg);
+    background-image: url(../img/mindsweeper-6.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
