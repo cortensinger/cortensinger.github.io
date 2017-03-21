@@ -100,14 +100,14 @@ $(document).ready(function () {
             
             if (currentPanel !== panel) {
                 console.log("+++++++++++++++++++++++++++++");
-                $('.panel').fadeOut(500);
+                $('.panel').fadeOut(200);
                 $('#menu-current').css({
                     'left': position,
                     'width': width
                 });
                 setTimeout(function () {
-                    $(panel).fadeIn(500);
-                }, 500);
+                    $(panel).fadeIn(200);
+                }, 200);
             }  
             
             currentPanel = panel;
@@ -116,14 +116,14 @@ $(document).ready(function () {
             
         }
         if (currentPanel !== panel) {
-            $('.panel').fadeOut(500);
+            $('.panel').fadeOut(200);
             $('#menu-current').css({
                 'left': position,
                 'width': width
             });
             setTimeout(function () {
-                $(panel).fadeIn(500);
-            }, 500);
+                $(panel).fadeIn(200);
+            }, 2s00);
             currentPanel = panel;
             currentButton = "#"+id;
             cleanProjects();
