@@ -883,7 +883,7 @@ body {
 }
 
 #project-cell-5 {
-    background-image: url(../img/hand-1.jpg);
+    background-image: url(../img/hand-cover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1392,7 +1392,7 @@ body {
 }
 
 #wheelsense-1 {
-    background-image: url(../img/wheelsense-1.jpg);
+    background-image: url(../img/wheelsense-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1402,7 +1402,7 @@ body {
 }
 
 #wheelsense-4 {
-    background-image: url(../img/wheelsense_4.jpg);
+    background-image: url(../img/wheelsense_4.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1412,7 +1412,7 @@ body {
 }
 
 #wheelsense-2 {
-    background-image: url(../img/wheelsense-2.JPG);
+    background-image: url(../img/wheelsense-2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1422,7 +1422,7 @@ body {
 }
 
 #wheelsense-3 {
-    background-image: url(../img/wheelsense-3.jpg);
+    background-image: url(../img/wheelsense-3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1496,7 +1496,7 @@ body {
 
 
 #hand-1 {
-    background-image: url(../img/hand-1.jpg);
+    background-image: url(../img/hand-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1506,7 +1506,7 @@ body {
 }
 
 #hand-2 {
-    background-image: url(../img/hand-2.jpg);
+    background-image: url(../img/hand-2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1516,7 +1516,7 @@ body {
 }
 
 #hand-3 {
-    background-image: url(../img/hand-3.JPG);
+    background-image: url(../img/hand-3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1526,7 +1526,7 @@ body {
 }
 
 #ring-1 {
-    background-image: url(../img/ring-1.jpg);
+    background-image: url(../img/ring-1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1546,7 +1546,7 @@ body {
 }
 
 #ring-3 {
-    background-image: url(../img/ring-3.jpg);
+    background-image: url(../img/ring-3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1616,7 +1616,7 @@ body {
 }
 
 #hand-4 {
-    background-image: url(../img/hand-4.jpg);
+    background-image: url(../img/hand-4.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1626,7 +1626,7 @@ body {
 }
 
 #hand-5 {
-    background-image: url(../img/hand-5.jpg);
+    background-image: url(../img/hand-5.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1660,8 +1660,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 750px;
     display: inline-block;
 }
 
